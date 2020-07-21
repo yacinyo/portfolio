@@ -1,0 +1,128 @@
+ header nav img {
+     width: 200x;
+     height: 200px;
+     color: white;
+     margin-left: 0px;
+ }
+ 
+ header {
+     background-image: url(img/crayon-lyon.jpg);
+     background-size: cover;
+     min-height: 100vh;
+ }
+ 
+ #icone {
+     display: none;
+ }
+ 
+ nav {
+     font-family: 'Poppins', sans-serif;
+     display: inline-block;
+ }
+ 
+ h1 {
+     font-size: 100px;
+     font-weight: 700px;
+     text-align: center;
+     color: white;
+     Margin-top: 100px;
+ }
+ 
+ h2 {
+     font-size: 50px;
+     text-align: center;
+     color: rgb(8, 8, 122);
+ }
+ 
+ ul {
+     list-style-type: none;
+ }
+ 
+ ul li {
+     margin-left: 30px;
+ }
+ 
+ ul li a {
+     color: purple;
+     font-size: 30px;
+     text-decoration: none;
+ }
+ 
+ #a-propos p {
+     font-size: 20px;
+ }
+ 
+ #a-propos {
+     padding-top: 50px;
+ }
+ 
+ #competences p {
+     font-size: 20px;
+ }
+ 
+ #icones img {
+     height: 100px;
+     width: 100px;
+ }
+ 
+ #icones {
+     list-style-type: none;
+ }
+ 
+ h3 {
+     color: blue;
+ }
+ 
+ #projets {
+     padding-top: 50px;
+ }
+ 
+ #listProjets a img {
+     height: 200px;
+     width: 200px;
+ }
+ 
+ nav ul {
+     display: none;
+ }
+ /*for mobile*/
+ 
+ @media only screen and (max-width: 798px) {
+     #icone {
+         display: block;
+     }
+     nav ul {
+         display: block;
+     }
+     nav {
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-start;
+     }
+     nav ul {
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-start;
+     }
+     nav ul li {
+         margin-top: 50px;
+     }
+     h1 {
+         font-size: 54px;
+     }
+     h2 {
+         font-size: 27px;
+     }
+ }
+ 
+ nav ul {
+     padding: 0 0;
+     margin: 0 0;
+ }
+ /*for Pc*/
+ 
+ @media screen and (min-width: 799px) {
+     .nav ul {
+         display: block !important;
+     }
+ }
